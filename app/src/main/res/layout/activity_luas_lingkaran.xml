@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasLingkaranActivity"
+    android:orientation="vertical"
+    android:background="@color/colorButton">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Hitung Luas Lingkaran"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUMUS : 0.5 x jari x jari"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edtJari"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Input Jari Jari"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#fff"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="hasil"
+        android:textSize="80dp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
